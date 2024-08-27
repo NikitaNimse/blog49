@@ -43,7 +43,7 @@ const loadBlogs = async () => {
 
 
  return (<>
-   <Navbar />
+      <Navbar />
     <div>
       <h1 className="home-greeting">Hello, {user.fullname}</h1>
       
