@@ -1,0 +1,18 @@
+.Nav{
+ background-color: rgb(67, 45, 64);
+ color:#bdc0eb;
+ padding: 3px 20px;
+ height:35px;
+ margin-top: 2px;
+ width: 100%;
+}
+.nav-menu{
+    color:rgb(250, 239, 239);
+    text-decoration: none;
+   font-size: 20px;
+    padding:3px 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-top: 50px;
+ }
+ 

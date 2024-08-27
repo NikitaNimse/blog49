@@ -1,0 +1,166 @@
+/*.transaction-card{
+    border: 1px solid #f0f0f0;
+    margin: 10px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f0f0f0;
+    position: relative;
+    background-color: #ffff;
+  }
+  
+  .transaction-card-title{
+    color: #f67fba;
+    margin: 0;
+    font-size: 25px;
+  }
+  
+  .transaction-card-amount{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+  }
+  
+  .transaction-card-date{
+    font-size: 20px;
+  }
+  
+  .transaction-card-category{
+    font-size: 15px;
+    background-color:  #f106e988;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 2px 10px;
+    border-radius: 25px;
+  }
+  
+  .transaction-card-delete{
+    background-color: #000;
+    color: #fff;
+    font-size: 8px;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+  } */
+
+
+/*
+  .card-container{
+  
+    background-color: hsl(75, 13%, 94%);
+    border: 1px solid black;
+    padding:  5px 10px;
+    margin:80px 40px;
+    width:300px;
+    
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: inline-block;
+    text-decoration:none;
+
+  
+}
+.card-container:hover{
+ 
+  transform: scale(1.05);
+}
+.title{
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:20px;
+    color:rgb(255, 65, 36);
+}
+.contentpre{
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    color:rgb(44, 36, 60);
+    font-size: 20px;
+}
+.author-avtar{
+    height:30px;
+    width: 30px;
+    border-radius:50%;
+}
+.name{
+  
+    font-size: 22px;
+    font-style:italic;
+    margin-left:10px;
+}
+.author-card{
+    display:flex;
+    align-items:center;
+    margin:10px 5px;
+}
+.date{
+    margin-left:38px;
+}
+.category-badge{
+background-color: black;
+color:#FFFF;
+padding:2px 5px;
+margin:7px;
+font-size:15px;
+border-radius:10px;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blog-card {
+  border-radius: 10px;
+  /*background-color: hsl(75, 13%, 94%);*/
+  background-color: hsl(0, 4%, 95%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 35px auto;
+  width:70%;
+ justify-content: center;
+ 
+ }
+.title-blog{
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+  color:rgb(246, 129, 238);
+}
+.poster {
+  display: block;
+  margin: 20px 30px;
+  width: 200px;
+  border-radius:5%;
+}
+.info1{
+  
+  font-size:22px;
+  padding: 10px;
+  margin: 5px;
+ }
+
+ .author-card{
+  display:flex;
+  align-items:center;
+  margin:10px 10px;
+  font-size: 15px;
+}
+.category-badge{
+  margin-left: 3px;
+}
+.transaction-card-delete{
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}

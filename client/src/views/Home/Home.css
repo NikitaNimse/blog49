@@ -1,0 +1,43 @@
+.home-heading{
+    color: rgb(140, 149, 252);
+    font-size: 30px;
+    margin: 0px;
+}
+.home-greeting{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.logout{
+    position: fixed;
+    top:5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(52, 35, 67);
+    color: #ffff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.transactions-container{
+    max-height: 600px;
+    overflow-y: scroll;
+  }
+
+  /* Add transaction button */
+.add-transaction {
+  
+    margin:  auto;
+    margin-left: 1400px;
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .add-transaction:hover {
+    transform: scale(1.1);
+  }
