@@ -70,7 +70,7 @@ const postblog = async(req,res)=>{
 
 
 
-const putblog = async(req, res) => {
+ /* const putblog = async(req, res) => {
   const {title, content, name, image, date, Language, user} = req.body;
   const blog = new Blog({
       title: title,
@@ -96,7 +96,7 @@ const putblog = async(req, res) => {
           data: null
       });
   }
-};
+}; */
 
 
 
@@ -117,4 +117,4 @@ const deleteblog = async(req,res)=>{
 
 
 
-export {postblog , getblog , putblog , deleteblog}
+export {postblog , getblog , deleteblog}

@@ -68,8 +68,8 @@ function BlogCard({ _id, title,content,name,image,date,Language, createdAt, load
           </span> 
     
           <span className="info1">
-            {name}
-            {new Date(createdAt).toLocaleString()}
+            <p className="name"> {name}</p>
+           <p>  {new Date(createdAt).toLocaleString()}</p> 
            
           </span>
     

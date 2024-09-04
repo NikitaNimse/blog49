@@ -2,6 +2,7 @@ import axios from "axios"
 import "./AddBlog.css"
 import { useState, useEffect } from 'react'
 import toast, {Toaster} from "react-hot-toast"
+import Navbar from "./../../Components/Navbar/Navbar.js";
 
 function AddBlog() {
   const [user, setUser] = useState('')
@@ -50,6 +51,8 @@ function AddBlog() {
   }
 
   return (
+  <>
+    <  Navbar />
     <div>
         <h3 className="auth-heading">
           Add Blog For {user.fullname}
@@ -109,6 +112,7 @@ function AddBlog() {
 
       <Toaster />
     </div>
+    </>
   )
 }
 

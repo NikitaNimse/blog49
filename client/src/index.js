@@ -11,7 +11,7 @@ import{
  import Login from './views/Login/Login';
  import SignUp from './views/SignUp/SignUp';
  import AddBlog from "./views/AddBlog/AddBlog";
- import  UpdateBlog from "./views/UpdateBlog/UpdateBlog"
+
 
 
 
@@ -32,10 +32,6 @@ import{
     {
         path: '/add-blog',
         element: <AddBlog />
-      },
-      {
-        path: '/update/:_id',
-        element: <UpdateBlog />
       },
 
 

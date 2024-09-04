@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors'
 import dotenv from 'dotenv';
-import {postblog, getblog ,putblog, deleteblog} from './controllers/blog.js';
+import {postblog, getblog, deleteblog} from './controllers/blog.js';
 import { postsignup , postlogin} from './controllers/user.js';
 
 dotenv.config();
@@ -39,7 +39,7 @@ app.post("/login" , postlogin)
 app.post ("/blog" , postblog)
 
 app.get ("/blogs" , getblog )
-app.put("/blog" , putblog )
+
 
 app.delete("/blog/:id", deleteblog)
 
